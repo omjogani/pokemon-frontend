@@ -33,5 +33,5 @@ jobs:
           IMAGE_TAG: latest
         run: |
           docker build -t pokemon .
-          docker build -t pokemon:latest 891376936371.dkr.ecr.ap-south-1.amazonaws.com/pokemon:latest
+          docker tag pokemon:latest 891376936371.dkr.ecr.ap-south-1.amazonaws.com/pokemon:latest
           docker push 891376936371.dkr.ecr.ap-south-1.amazonaws.com/pokemon:latest
