@@ -47,3 +47,4 @@ jobs:
           aws_secret_access_key: ${{secrets.AWS_SECRET_ACCESS_KEY}}
           aws_bucket: pokemon-app-3
           source_dir: dist
+          destination_dir: ''
